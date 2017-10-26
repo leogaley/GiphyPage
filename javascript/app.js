@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	//initial button array
 	var buttons = ["truck","car","suv","Mustang","Silverado","Tesla","Dodge","Chevy","Ford","Jeep","Mazda","Bentley","GMC","the car from back to the future"];
-	var endpoint = "http://api.giphy.com/v1/gifs/search?";
+	var endpoint = "https://api.giphy.com/v1/gifs/search?";
 	//object for use with jquery param method.
 	var parameters = {
 		api_key : "THhfPOIDx9Hbt3aD8dqFKMlusaxiHgpk",
