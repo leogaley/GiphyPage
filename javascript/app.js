@@ -44,7 +44,7 @@ $(document).ready(function(){
 			var playURL = results[i].images.fixed_height_small.url;
 			image.attr("data-stopURL",stopURL).attr("data-playURL",playURL);
 			ratingElement.text("Rating: " + results[i].rating);
-			image.attr("src",results[i].images.fixed_height_small_still.url);
+			image.attr("src",stopURL);
 			imageBlock.append(ratingElement).append(image).addClass("image-block");
 			$(".gifs").append(imageBlock);
 		}
