@@ -1,0 +1,25 @@
+.btn-info {
+	margin:5px;
+}
+
+.image-block {
+	float:left;
+	margin:10px;
+}
+
+img {
+	cursor:pointer;
+}
+
+/*.newButtonForm {
+	float:right;
+	width:25%;
+}
+
+.gifs {
+	max-width: 60%;
+}*/
+
+/*.container-fluid {
+	max-width: 85%;
+}*/
